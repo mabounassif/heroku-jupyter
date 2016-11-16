@@ -12,6 +12,8 @@ dependencies:
   - matplotlib
   - sklearn:
     - git+git@github.com:scikit-learn/scikit-learn.git
+  - theano:
+    - git+git@github.com:Theano/Theano.git
   - psycopg2
   - six
   - sqlalchemy
