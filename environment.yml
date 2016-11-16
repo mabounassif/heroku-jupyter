@@ -1,4 +1,6 @@
 name: ipython-notebook
+channels:
+  - conda-forge
 dependencies:
   - notebook
   - ipywidgets
@@ -11,6 +13,10 @@ dependencies:
   - six
   - sqlalchemy
   - nose
+  - keras
+  - theano
+  - scikit-learn
+  - matplotlib
   - pip:
     - git+git://github.com/pl31/pgcontents.git
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
