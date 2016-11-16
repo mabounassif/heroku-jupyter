@@ -7,9 +7,11 @@ dependencies:
   - certifi
   - click
   - mako
-  - keras
+  - keras:
+    - git+git@github.com:fchollet/keras.git
   - matplotlib
-  - sklearn
+  - sklearn:
+    - git+git@github.com:scikit-learn/scikit-learn.git
   - psycopg2
   - six
   - sqlalchemy
