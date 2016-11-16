@@ -11,6 +11,14 @@ dependencies:
   - six
   - sqlalchemy
   - nose
+  - keras
+    git+https://github.com/fchollet/keras.git
+  - matplotlib
+    git+https://github.com/matplotlib/matplotlib.git
+  - sklearn
+    git+https://github.com/scikit-learn/scikit-learn.git
+  - theano
+    git+https://github.com/Theano/Theano.git
   - pip:
     - git+git://github.com/pl31/pgcontents.git
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
