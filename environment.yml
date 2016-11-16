@@ -7,6 +7,9 @@ dependencies:
   - certifi
   - click
   - mako
+  - keras
+  - matplotlib
+  - sklearn
   - psycopg2
   - six
   - sqlalchemy
